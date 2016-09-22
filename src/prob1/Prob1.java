@@ -8,7 +8,9 @@ public class Prob1 {
 		int intData2 = 150;
 				
 		/* 코드를 완성합니다. */
-				
+		//strdata1 을 int로 intdata2를 string으로 바꿔줘라 줘!!
+		intData1 = Integer.parseInt(strData1);
+		strData2 = String.valueOf(intData2);
 		System.out.println( "결과:" + intData1 + "," + strData2 );
 	}
 }

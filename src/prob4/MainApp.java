@@ -4,6 +4,7 @@ public class MainApp {
 
 	public static void main(String[] args) {
 		try {
+
 			Stack stack = new MyStack(3);
 			stack.push("Hello");
 			stack.push("World");
@@ -11,9 +12,10 @@ public class MainApp {
 			stack.push("java");
 			stack.push(".");
 
-			while (!stack.isEmpty()) {
+			while (stack.isEmpty() == false ) {
 				System.out.println(stack.pop());
 			}
+
 
 			System.out.println("======================================");
 

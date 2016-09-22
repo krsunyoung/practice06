@@ -3,6 +3,10 @@ package prob5;
 public class Money {
 	private int amount;
 
+	public Money(int i) {
+		
+	}
+
 	public int getAmount() {
 		return amount;
 	}
